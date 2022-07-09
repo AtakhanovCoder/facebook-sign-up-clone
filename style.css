@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+*{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+body{
+    background-color: #f0f2f5;
+    overflow-x: hidden;
+}
+div.container{
+    display: flex;
+    justify-content: center;
+    display: grid;
+    grid-template-columns: auto;
+}
+header{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+.register-content{
+    width: 490px;
+    background-color: #ffffff;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+    border-radius: 9px;
+    padding: 5px
+}
+.head-content p,h2{
+    text-align: center;
+    padding: 4px;
+}
+.head-content{
+    border-bottom: 1px solid #DADDE1;
+}
+.new-account-content{
+    padding: 20px;
+}
+.new-account-inp{
+    border: 0.1px solid #CCD0D5;
+    margin: 1px;
+    outline: none;
+    font-size: 20px;
+    border-radius: 4px;
+    margin: 5px;
+}
+.names{
+    display: flex;
+    justify-content: center;
+}
+.first-name{
+    width: 210px;
+    height: 40px;
+}
+.sur-name{
+    width: 210px;
+    height: 40px;
+}
+.email{
+    margin: 7px 5px;
+    width: 436px;
+    height: 40px;
+}
+.new-password{
+    margin: 7px 5px;
+    width: 436px;
+    height: 40px;
+}
+.date-birth-title p{
+    color: #606770;
+    margin: 0px 25px;
+}
+.date-birth-select{
+    padding: 20px 25px;
+    display: flex;
+    justify-content: space-around;
+}
+.date-birth{
+    width: 125px;
+    font-size: 20px;
+    border-radius: 5px;
+    outline: none;
+    height: 40px;
+}
+.gender-title p{
+    color: #606770;
+    margin: 0px 25px;
+}
+.genders{
+    margin: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+.gender{
+    width: 125px;
+    height: 40px;
+    font-size: 12px;
+    border: 1px solid #CCD0D5;
+    border-radius: 10px;
+    display: grid;
+    grid-template-columns: auto auto;
+    margin: 10px;
+}
+.gender input{
+    margin: 15px;
+    position: relative;
+    bottom: 5px;
+    width: 20px;
+    height: 20px;
+}
+.gender h2{
+    position: relative;
+    top: 3px;
+}
+.first-text{
+    width: 450px;
+    margin: 20px 30px;
+}
+.second-text{
+    width: 450px;
+    margin: 25px 30px;
+}
+.button-content{
+    padding: 38px;
+    display: flex;
+    justify-content: center;
+    display: grid;
+    grid-template-columns: auto;
+    position: relative;
+}
+.sign-up-btn{
+    position: absolute;
+    left: 22%;
+    background-color: #4EA507;
+    color: white;
+    border: none;
+    width: 250px;
+    height: 50px;
+    font-size: 20px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.sign-up-btn:hover{
+    color: #e4e4e4;
+}
